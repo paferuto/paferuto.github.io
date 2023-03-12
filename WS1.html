@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>workshop description</title>
+    <link rel="stylesheet" href="css/WS1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&family=Lato&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&family=Lato&family=Lora:wght@400;500;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/3a15b0bf4f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><a href=""><img src="images/ws-chi-tiet/tipsy1-01.png"></a></div>
+                <div class="swiper-slide"><a href=""><img src="images/ws-chi-tiet/tipsy2-01.png"></a></div>
+                <div class="swiper-slide"><a href=""><img src="images/ws-chi-tiet/tipsy3-01.png"></a></div>
+            </div>
+            <div class="swiper-pagination"></div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </div>
+
+    <div class="text-box">
+        <h1>Workshop vẽ tranh thư giãn</h1>
+        <p><b>Thời gian diễn ra:</b> 10:00, Thứ Sáu, 17/03/2023 <br>
+           <b>Địa điểm:</b> Tipsy Art Co-working Art Space - 6B Nguyễn Cảnh Chân, P. Nguyễn Cư Trinh, Quận 1, Hồ Chí Minh <br>
+            <b>Số lượng người tham dự:</b> tối đa 20 người<br>
+            <b>Giá:</b> 440.000 VND/người 
+        </p>
+        <h3>Mô tả chi tiết</h3>
+        <p><b> - Thông tin WS:</b> Là sự kiện nghệ thuật dành cho những người chưa cầm cọ bao giờ có thể vẽ được một bức tranh treo tường hoàn chỉnh. Chỉ trong 3 tiếng đồng hồ, các họa sĩ của Tipsy Art sẽ cho bạn những hướng dẫn chi tiết và cụ thể để bạn có vẽ theo, học được những kĩ thuật hội họa cơ bản nhất, và hoàn thiện một bức tranh mang về treo tường hoặc tặng những người thân yêu. Được thành lập từ tháng 12/2015, Tipsy Art không chỉ là một sự kiện dạy vẽ tranh và người đến tham gia không chỉ mong chờ một bức tranh đẹp do mình tự vẽ mang về.
+        <br><b>- Thông tin diễn giả:</b> Các họa sĩ tại Tipsy Art
+        </p>
+    </div>
+
+    <div class="jokedone">
+        <input type="text" class="soluong" placeholder="số lượng vé">
+        <button type="button" class="btn">Thêm vào giỏ hàng</button>
+    </div>
+    
+    <div class="footer">
+        <div class="col-1">
+            <h3>EQUAL</h3>
+            <a href="#">Về chúng tôi</a>
+            <a href="#">Liên hệ</a>
+            <a href="#">Trợ giúp</a>
+        </div>
+        <div class="col-2">
+        <h3>Nhận thông tin mới nhất</h3>
+        <form>
+            <input type="email" placeholder="Gmail của bạn" required>
+            <br>
+            <button type="submit">Đăng ký ngay</button>
+        </form>
+        </div>
+        <div class="col-3">
+            <h3>Mạng xã hội</h3>
+            <div class="social">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+        </div>
+
+    </div>
+
+
+
+<!--java-->
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script>
+    const swiper = new Swiper('.swiper', {
+        autoplay: {
+            delay: 2000,
+            disableOnInteraction: false,
+        },
+  loop: true,
+
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+});
+</script>
+
+</body>
+</html>

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>demo</title>
+    <link rel="stylesheet" href="css/style-demo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&family=Lato&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@600&family=Lato&family=Lora:wght@400;500;700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/3a15b0bf4f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="demo.html"><img src="image/logo-up-01.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="subpage.html">Về chúng tôi</a></li>
+                    <li><a href="subpage.html">Liên hệ</a></li>
+                    <li><a href="subpage.html">Trợ giúp</a></li>
+                    <li><a href="subpage.html">Trò chuyện</a></li>
+                    <li><a href="subpage.html">Giỏ hàng</a></li>
+                    <li><a href="subpage.html">Đăng nhập</a></li>
+                    <li><a href="subpage.html">Đăng ký</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    <div class="text-box">
+        <h1>Master Your Skills With UP</h1>
+        <p>Khám phá ngay</p>
+        <div class="col-md-4">
+            <input type="text" class="form-control" placeholder="Bạn tìm gì hôm nay?">
+            <button type="submit" class="btn btn-primary">Tìm kiếm</button>
+        </div>
+    </div>
+
+
+    </section>
+
+<!--gallery-->
+    <section class="bo-suu-tap">
+    <div class="container">
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide"><a href="WS1.html"><img src="image/slide-1-01.png"></a></div>
+              <div class="swiper-slide"><a href="WS2.html"><img src="image/slide-2-01.png"></a></div>
+              <div class="swiper-slide"><a href="subpage.html"><img src="image/slide-3-01.png"></a></div>
+              <div class="swiper-slide"><a href="subpage.html"><img src="image/slide-4_Mesa de trabajo 1.png"></a></div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div> 
+    </div>    
+    </section>
+
+     <!--topic-->
+    <section class="ws-topic">
+    <div class="topic">
+        <h3>Chủ đề</h3>
+         <div class="row">
+            <div class="top-col"><a href="subpage.html"><b>Nghệ thuật</b></a></div>
+            <div class="top-col"><a href="subpage.html"><b>Giáo dục</b></a></div>
+            <div class="top-col"><a href="subpage.html"><b>Sức khỏe</b></a></div>
+        </div>
+        <div class="row">
+            <div class="top-col"><a href="subpage.html"><b>Kinh doanh</b></a></div>
+             <div class="top-col"><a href="subpage.html"><b>Phát triển bản thân</b></a></div>
+            <div class="top-col"><a href="subpage.html"><b>Chuyên ngành</b></a></div>
+        </div>
+    </div>
+    </section>
+
+
+<!--workshop-->
+    <section class="workshop">
+        <h3>Có thể bạn quan tâm</h3>
+        <div class="gallery-wrap">
+            <img src="images/back1.png" id="backBtn">
+            <div class="gallery">
+                <div>
+                    <span><a href="WS1.html"><img src="images/tipsy-01.png"></a></span>
+                    <span><img src="images/TALENT-01.png"></span>
+                    <span><a href="WS2.html"><img src="images/mây-01.png"></a></span>
+                </div>
+                <div>
+                    <span><a href="WS4.html"><img src="images/ueh-01.png"></a></span>
+                    <span><a href="WS5.html"><img src="images/ttu-01.png"></a></span>
+                    <span><a href="WS3.html"><img src="images/gioitinh-01.png"></a></span>
+                </div>
+                <div>
+                    <span><img src="images/hoasen-01.png"></span>
+                    <span><img src="images/hrd-01.png"></span>
+                    <span><img src="images/ueb-01.png"></span>
+                </div>
+            </div>
+            <img src="images/next1.png" id="nextBtn">
+        </div>
+        
+    </section>
+    
+<!--footer-->
+
+    <div class="footer">
+        <div class="col-1">
+            <h3>EQUAL</h3>
+            <a href="#">Về chúng tôi</a>
+            <a href="#">Liên hệ</a>
+            <a href="#">Trợ giúp</a>
+        </div>
+        <div class="col-2">
+        <h3>Nhận thông tin mới nhất</h3>
+        <form>
+            <input type="email" placeholder="Gmail của bạn" required>
+            <br>
+            <button type="submit">Đăng ký ngay</button>
+        </form>
+        </div>
+        <div class="col-3">
+            <h3>Mạng xã hội</h3>
+            <div class="social">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+        </div>
+
+    </div>
+
+
+<!-- JavaScript for Toggle Menu -->
+<script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-250px";
+    }
+</script>
+<!--javascript for swiper-->
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+<script>
+    const swiper = new Swiper('.swiper', {
+        autoplay: {
+            delay: 2000,
+            disableOnInteraction: false,
+        },
+  loop: true,
+
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+});
+</script>
+
+<!--javascript for gallery-->
+<script>
+    let scrollContainer = document.querySelector(".gallery");
+    let backBtn = document.getElementById("backBtn");
+    let nextBtn = document.getElementById("nextBtn");
+
+    scrollContainer.addEventListener("wheel", (evt) => {
+        evt.preventDefault();
+        scrollContainer.scrollLeft += evt.deltaY;
+        scrollContainer.style.scrollBehavior = "auto";
+    });
+    nextBtn.addEventListener("click", () => {
+        scrollContainer.style.scrollBehavior = "smooth";
+        scrollContainer.scrollLeft += 900;
+    });
+    backBtn.addEventListener("click", () => {
+        scrollContainer.style.scrollBehavior = "smooth";
+        scrollContainer.scrollLeft -= 900;
+    });
+
+</script>
+
+</body>
+</html>
