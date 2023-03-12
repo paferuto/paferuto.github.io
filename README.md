@@ -1,1 +1,0 @@
-# paferuto.github.io
